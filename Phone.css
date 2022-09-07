@@ -1,0 +1,66 @@
+/* navigation section*/
+
+nav{
+    flex-direction: column;
+}
+
+#logo img {
+    display: block;
+    margin: auto;
+  }
+   nav > ul> li{
+    margin: 6px 7px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+
+  }
+  nav > ul{
+  margin: auto;
+  }
+nav > ul a {
+    display: flex;
+ /* padding: 7px 9px; */
+    font-family: sans-serif;
+    font-size: 1rem;
+    /* font-size: 34px; */
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white; 
+  } 
+
+/*about section*/
+
+
+/*products section*/
+.imgVideoContainer{
+   flex-wrap: wrap;
+  }
+
+/*services section*/
+.serviceContainer{
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.box{
+  background-color: black;
+  padding: 29px 26px;
+  margin: 11px 11px;
+  align-items: center;
+  justify-content: center;
+  width: 183px;
+  height: auto;
+  text-align: center;
+  border-radius: 13px;
+  border: 1px solid white;
+}
+.mainContainer {
+  flex-wrap: wrap;
+  }
+.rightContainer{
+  /* margin-top: -14px; */
+}
+
+/*contact section*/
+

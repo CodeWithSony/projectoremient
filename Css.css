@@ -1,0 +1,212 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* navigation section */
+nav {
+  background-color: #bd0000;
+  display: flex;
+}
+#logo{
+  margin: 0px 34px;
+}
+
+#logo img {
+  margin: 3px 6px;
+  height: 72px;
+  border-radius: 8px;
+  width: 72px;
+}
+ul {
+  margin-left: 5px;
+  box-sizing: border-box;
+}
+nav > ul {
+  display: flex;
+  box-sizing: border-box;
+  font-size: 1.3rem;
+  margin: auto;
+  
+}
+nav > ul li {
+  /* margin: 6px 12px; */
+  
+  box-sizing: border-box;
+  margin: 22px 80px;
+  list-style: none;
+}
+nav > ul a {
+  display: block;
+  padding: 0px 0px;
+  font-family: sans-serif;
+  font-size: 2rem;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: white;
+}
+
+nav > ul a:hover {
+  font-weight: bold;
+  box-sizing: border-box;
+}
+/* about section */
+/* utility class */
+.header {
+  font-family: sans-serif;
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 5px;
+}
+#about {
+  border: 1px solid black;
+  padding: 19px;
+  color: white;
+  background-color: #010d76;
+}
+.about{
+  /* padding: 12px; */
+  /* height: 300px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.aboutClass {
+  /* margin: 12px 90px; */
+  /* margin: auto;
+    display: block;
+    width: 60px; */
+  padding: 10px;
+
+  margin-top: -10px;
+
+}
+.about > .paraAbout {
+  font-family: sans-serif;
+  padding: 18px;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  margin: 0px 16px;
+
+}
+/* Products Section */
+#products {
+  padding: 19px;
+  border: 1px solid black;
+  background-color:rgb(138 235 138 / 87%);;
+}
+.imgVideoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imgVideo {
+  /* border: 2px solid black; */
+  margin: 18px 28px;
+}
+.img > img {
+  height: 235px;
+  width: 323px;
+  border-radius: 8px;
+}
+video {
+  /* margin-top: -22px; */
+  height: 209px;
+  width: 324px;
+  border-radius: 8px;
+}
+/* Services Section */
+#services {
+  background-color: grey;
+}
+.aboutServices{
+  margin-top: 20px;
+  box-sizing: border-box;
+  margin-left: 139px;
+  text-align: left;
+}
+.mainContainer {
+  /* display: flex; */
+  /* align-items: center; */
+  background-color: grey;
+  /* justify-content: center; */
+}
+#services{
+  border: 1px solid;
+}
+.serviceContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  margin-top: 12px;
+  /* margin: 18px; */
+  margin-top: -5px;
+  margin-bottom: 23px;
+
+/* border-right: 1px solid; */
+}
+.leftContainer {
+  color: white;
+  display: flex;
+  /* margin-bottom: 10px; */
+  /* border-right: 2px solid black; */
+}
+
+.box {
+  background-color: black;
+  padding: 29px 26px;
+  margin: 22px 20px;
+  width: 183px;
+  text-align: center;
+  border-radius: 13px;
+  border: 1px solid white;
+}
+
+.rightContainer {
+  color: white;
+  display: flex;
+  /* margin-top: 53px;
+  margin-bottom: 10px; */
+}
+/*Contact Section */
+#contact {
+  /* display: flex; */
+  border: 1px solid;
+}
+.addressSector{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+/* utility class */
+.margin{
+  margin: 0px 7px;
+}
+table{
+  font-size: 18px;
+  font-family: sans-serif;
+}
+.bold{
+  font-size: larger;
+  font-weight: bold;
+}
+pre{
+  font-size: 18px;
+  font-family: sans-serif;
+
+}
+footer {
+  border: 1px solid black;
+  text-align: center;
+  font-size: 22px;
+  font-family: sans-serif;
+height: 40px;
+}
+

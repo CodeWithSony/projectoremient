@@ -1,0 +1,74 @@
+
+#about > .paraAbout {
+  margin: 0px 0px;
+}
+nav>ul>li{
+    margin: 6px 0px;
+}
+   video{
+     height: auto;
+     width: 280px;
+
+     border-radius: 8px;
+   }
+   .header{
+    font-size:1.5rem;
+   }
+   .img>img{
+    width: 280px;
+    height: 157px;
+   }
+   /* services section */
+   .leftContainer {
+    color: white;
+    display: flex;
+    /* margin-bottom: 10px; */
+    /* border-right: 2px solid black; */
+    flex-wrap: wrap;
+    justify-content: center;
+    /* width: 80%; */
+    /* margin-bottom: 10px; */
+}
+
+
+.rightContainer {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  display: flex;
+  /* margin-top: 53px;
+  margin-bottom: 10px; */
+}
+.leftContainer{
+  flex-wrap: wrap;
+}
+.rightContainer{
+ flex-wrap: wrap;
+}
+.rightContainer>.box{
+  /* margin-bottom: 10px; */
+  /* margin-top: -12px; */
+}
+
+   /* .box{
+    margin:0;
+    padding:5px;
+   } */
+   /* footer */
+   .margin {
+    margin: 0px 5px;
+}
+
+table {
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+.addressSector {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0px 7px;
+}
